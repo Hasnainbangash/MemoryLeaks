@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
 class myView: UIView {
     
-    let vc: UIViewController
+    weak var vc: UIViewController?
     
     init(vc: UIViewController) {
         self.vc = vc
