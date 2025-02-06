@@ -45,6 +45,7 @@ class SecondVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
+        // Memroy leaks is occuring due to this line
         // myView = myView(vc: self)
     }
     
